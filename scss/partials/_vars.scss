@@ -1,0 +1,26 @@
+$brand-color: #39263e; // darker
+$brand-color2: #4f1a57; // original
+$brand-color3: #333333;
+$brand-color4: #282828;
+$brand-light: shade(#bbb, 8);
+$form-background: #f7f7f7;
+
+// ===================================================
+// BREAKPOINT : Define breakponts for Susy
+// ===================================================
+
+
+$smallSized: 30em; // roughly 480px
+$smallOnly: 0em 43em;
+$midSized: 43em; // roughly 680px
+$smallToMid: 0 60em;
+$largeSized: 60em; //roughly 960px
+$largerSized: 75em;
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: outside,
+);

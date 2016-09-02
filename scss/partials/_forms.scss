@@ -1,0 +1,81 @@
+.dmg_gf_large_wrap{
+	margin-top: -8em;
+	.gform_wrapper{
+		padding: 1em;
+		background: $form-background;
+		border-top: 5px solid $brand-color2;
+		h2.gsection_title{
+			font-size: 1.4em;
+		}
+		.gsection_description{
+			font-size: 1.05em;
+		}
+	}
+	
+}
+
+input[type="text"],input[type="tel"],input[type="email"],input[type="password"],select,textarea{
+	border: none;
+	background-color: shade($form-background, 5);
+	font-family: "Lato";
+	color: #73848e;
+	transition: all ease-in-out .2s;
+	&:focus{
+		-webkit-box-shadow: 0px 3px 0px $brand-color2;
+		-moz-box-shadow: 0px 3px 0px $brand-color2;
+		box-shadow: 0px 3px 0px $brand-color2;
+	}
+}
+.gform_wrapper {
+	.gfield input[type=email], 
+	.gfield input[type=number], 
+	.gfield input[type=password], 
+	.gfield input[type=tel], 
+	.gfield input[type=text], 
+	.gfield input[type=url] {
+			padding: .5em;
+	}
+}
+
+.gform_wrapper{
+	.ginput_container{
+		input[type="text"],input[type="tel"],input[type="email"],input[type="password"],select,textarea{
+			font-size: 16px;
+			line-height: 1.2em;
+		}
+	}
+	select{
+		padding: .5em;
+		margin-bottom: 0;
+		// margin-top: .75em;
+	}
+	input[type="submit"]{
+		padding: 1em;
+		background-color: $brand-color;
+		color: #fff;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		border: none;
+		min-width: 25%;
+		text-transform: uppercase;
+	}
+}
+
+.gform_footer{
+	input[type="submit"]{
+		padding: 1em;
+		background-color: $brand-color;
+		color: #fff;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		border: none;
+		min-width: 25%;
+		text-transform: uppercase;
+	}
+}
+
+.dmg_top_margin{
+	textarea, input, select{
+		margin-top: 1.2em;
+	}
+}

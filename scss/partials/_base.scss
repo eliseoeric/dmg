@@ -1,0 +1,86 @@
+div#back-to-top a {
+    background-color: $brand-color;
+}
+
+#header.style8 #main-header {
+    opacity: 1!important;
+
+    .col-lg-9 {
+        padding-top: 20px;
+    }
+}
+
+#header.style8.sticky-header #main-header {
+    .col-lg-9 {
+        padding-top: 0;
+    }
+}
+
+.wpb_single_image img {
+    height: auto;
+    max-width: 100%;
+}
+
+.mobile-center{
+    @include breakpoint($smallOnly) {
+        text-align: center;
+    }
+}
+
+.vc_row.vc_row-no-padding .wpb_column.rep_cta {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    @include breakpoint($midSized) {
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.dmg_product_grid {
+    .vc_col-sm-6.wpb_column, .vc_col-sm-4.wpb_column{
+        @include breakpoint($smallToMid) {
+            margin-bottom: 35px;
+        }
+
+        .banner-content-inner .overlay {
+            @include breakpoint($smallToMid) {
+                padding: 10px 20px 10px 20px;
+            }
+        }
+    }
+
+    .vc_col-sm-12 .shop-banner img {
+        @include breakpoint($smallToMid) {
+            width: auto;
+            height: 100%;
+            max-width: none;
+        }
+    } 
+
+    &.wpb_row {
+        @include breakpoint($smallToMid) {
+            margin-bottom: 0!important;
+        }
+    }
+}
+
+.vc_custom_heading {
+    h1,h2,h3,h4,h5,h6 {
+        @include breakpoint($smallToMid) {
+            word-break: break-word;
+        }
+    }
+
+    &.vc_custom_heading.dmg_headline {
+        h2 {
+            @include breakpoint($midSized) {  
+                font-size: 56px;
+                line-height: 60px;
+            }
+        }
+    }
+}

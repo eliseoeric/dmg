@@ -1,0 +1,715 @@
+/* line 1, ../scss/partials/_base.scss */
+div#back-to-top a {
+  background-color: #39263e;
+}
+
+/* line 5, ../scss/partials/_base.scss */
+#header.style8 #main-header {
+  opacity: 1 !important;
+}
+/* line 8, ../scss/partials/_base.scss */
+#header.style8 #main-header .col-lg-9 {
+  padding-top: 20px;
+}
+
+/* line 14, ../scss/partials/_base.scss */
+#header.style8.sticky-header #main-header .col-lg-9 {
+  padding-top: 0;
+}
+
+/* line 19, ../scss/partials/_base.scss */
+.wpb_single_image img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 0em) and (max-width: 43em) {
+  /* line 24, ../scss/partials/_base.scss */
+  .mobile-center {
+    text-align: center;
+  }
+}
+
+/* line 30, ../scss/partials/_base.scss */
+.vc_row.vc_row-no-padding .wpb_column.rep_cta {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 43em) {
+  /* line 30, ../scss/partials/_base.scss */
+  .vc_row.vc_row-no-padding .wpb_column.rep_cta {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 44, ../scss/partials/_base.scss */
+  .dmg_product_grid .vc_col-sm-6.wpb_column, .dmg_product_grid .vc_col-sm-4.wpb_column {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 49, ../scss/partials/_base.scss */
+  .dmg_product_grid .vc_col-sm-6.wpb_column .banner-content-inner .overlay, .dmg_product_grid .vc_col-sm-4.wpb_column .banner-content-inner .overlay {
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 56, ../scss/partials/_base.scss */
+  .dmg_product_grid .vc_col-sm-12 .shop-banner img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+  }
+}
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 64, ../scss/partials/_base.scss */
+  .dmg_product_grid.wpb_row {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 72, ../scss/partials/_base.scss */
+  .vc_custom_heading h1, .vc_custom_heading h2, .vc_custom_heading h3, .vc_custom_heading h4, .vc_custom_heading h5, .vc_custom_heading h6 {
+    word-break: break-word;
+  }
+}
+@media (min-width: 43em) {
+  /* line 79, ../scss/partials/_base.scss */
+  .vc_custom_heading.vc_custom_heading.dmg_headline h2 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+/* line 1, ../scss/partials/_headers.scss */
+.welcome-header {
+  margin-top: 1.6rem;
+  font-weight: 800;
+  color: #39263e;
+  padding-bottom: .25em;
+  border-bottom: 25px solid #39263e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+@media (min-width: 0em) and (max-width: 43em) {
+  /* line 1, ../scss/partials/_headers.scss */
+  .welcome-header {
+    width: 44.44444%;
+    float: left;
+    margin-right: 1em;
+  }
+}
+@media (min-width: 43em) {
+  /* line 1, ../scss/partials/_headers.scss */
+  .welcome-header {
+    font-size: 32px;
+    letter-spacing: 8px;
+  }
+}
+@media (min-width: 60em) {
+  /* line 1, ../scss/partials/_headers.scss */
+  .welcome-header {
+    letter-spacing: 14px;
+  }
+}
+/* line 23, ../scss/partials/_headers.scss */
+.welcome-header span {
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: .72em;
+}
+
+/* line 30, ../scss/partials/_headers.scss */
+.welcome-cta h2.leader {
+  margin-top: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 35, ../scss/partials/_headers.scss */
+.welcome-cta h3 {
+  font-weight: 300;
+  color: #acacac;
+}
+
+/* line 41, ../scss/partials/_headers.scss */
+.dmg-gallery {
+  padding-top: 1em;
+}
+@media (min-width: 43em) {
+  /* line 41, ../scss/partials/_headers.scss */
+  .dmg-gallery {
+    padding-left: 3em;
+  }
+}
+
+/* line 49, ../scss/partials/_headers.scss */
+.dmg-gallery.last {
+  margin-bottom: 3em;
+}
+
+/* line 53, ../scss/partials/_headers.scss */
+.dmg-header-caption {
+  margin-top: 10em;
+}
+@media (min-width: 0em) and (max-width: 43em) {
+  /* line 53, ../scss/partials/_headers.scss */
+  .dmg-header-caption {
+    width: 44.44444%;
+    float: left;
+    margin-top: 1.8rem;
+  }
+}
+/* line 59, ../scss/partials/_headers.scss */
+.dmg-header-caption h4 {
+  color: #acacac;
+  font-weight: 300;
+}
+/* line 63, ../scss/partials/_headers.scss */
+.dmg-header-caption.extra-margin {
+  margin-top: 15em;
+}
+/* line 67, ../scss/partials/_headers.scss */
+.dmg-header-caption ul {
+  list-style: none;
+}
+/* line 70, ../scss/partials/_headers.scss */
+.dmg-header-caption ul li a {
+  color: inherit;
+}
+/* line 71, ../scss/partials/_headers.scss */
+.dmg-header-caption ul li span {
+  color: #4f1a57;
+  font-size: 1.05em;
+}
+
+/* line 76, ../scss/partials/_headers.scss */
+div.dmg-homepage-cta-box {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+/* line 79, ../scss/partials/_headers.scss */
+div.dmg-homepage-cta-box img {
+  max-width: 85%;
+  float: left;
+}
+
+/* line 85, ../scss/partials/_headers.scss */
+.dmg-page-title-bar {
+  padding: 30px 60px 30px 50px;
+}
+@media (min-width: 43em) {
+  /* line 85, ../scss/partials/_headers.scss */
+  .dmg-page-title-bar {
+    padding: 30px 60px 30px 100px;
+  }
+}
+/* line 91, ../scss/partials/_headers.scss */
+.dmg-page-title-bar h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+/* line 95, ../scss/partials/_headers.scss */
+.dmg-page-title-bar h1 {
+  font-size: 5.2rem;
+  margin-top: 2rem;
+}
+/* line 100, ../scss/partials/_headers.scss */
+.dmg-page-title-bar h3 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+/* line 103, ../scss/partials/_headers.scss */
+.dmg-page-title-bar h3 span {
+  font-weight: 500;
+}
+
+/* line 108, ../scss/partials/_headers.scss */
+.page-template-template-blog-list-php .dmg-page-title-bar {
+  padding: 4em 3em 4em 10em;
+}
+
+/* line 115, ../scss/partials/_headers.scss */
+.single-post .page-heading {
+  display: block !important;
+}
+
+/* line 119, ../scss/partials/_headers.scss */
+.full_bg.full-width-bg {
+  border-bottom: 1px solid #c6c6c6;
+}
+
+/* line 123, ../scss/partials/_headers.scss */
+.nra-banner {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #282828;
+  background: url("http://dmgflorida.com/wp-content/uploads/2014/11/nra_banner1.jpg") center no-repeat;
+}
+@media (min-width: 0em) and (max-width: 43em) {
+  /* line 123, ../scss/partials/_headers.scss */
+  .nra-banner {
+    background-size: cover;
+  }
+}
+
+/* line 134, ../scss/partials/_headers.scss */
+.nra-content {
+  padding: 4em 4em 4em 0;
+}
+
+/* line 138, ../scss/partials/_headers.scss */
+.std-margin {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+/* line 143, ../scss/partials/_headers.scss */
+.dmg-line-list {
+  margin-top: 2em;
+}
+/* line 145, ../scss/partials/_headers.scss */
+.dmg-line-list .img-wrap {
+  position: relative;
+  max-height: 395px;
+  overflow: hidden;
+}
+/* line 149, ../scss/partials/_headers.scss */
+.dmg-line-list .img-wrap img {
+  margin: 0 0 0 0 !important;
+}
+/* line 153, ../scss/partials/_headers.scss */
+.dmg-line-list .dmg-overlay {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in-out;
+}
+/* line 161, ../scss/partials/_headers.scss */
+.dmg-line-list .dmg-overlay:hover {
+  background-color: transparent;
+}
+/* line 164, ../scss/partials/_headers.scss */
+.dmg-line-list .dmg-overlay .dmg-overlay_caption {
+  padding: 0 0 1em 2em;
+  position: absolute;
+  bottom: 0;
+}
+/* line 168, ../scss/partials/_headers.scss */
+.dmg-line-list .dmg-overlay .dmg-overlay_caption h4 {
+  color: #fff;
+}
+/* line 169, ../scss/partials/_headers.scss */
+.dmg-line-list .dmg-overlay .dmg-overlay_caption p {
+  color: #fff;
+}
+
+/* line 175, ../scss/partials/_headers.scss */
+.dmg-line-list.left-col {
+  padding-right: 0;
+}
+
+/* line 179, ../scss/partials/_headers.scss */
+.dmg-line-list.right-col {
+  padding-left: 5px;
+}
+/* line 181, ../scss/partials/_headers.scss */
+.dmg-line-list.right-col .col-lg-12 {
+  padding-left: 0;
+}
+/* line 183, ../scss/partials/_headers.scss */
+.dmg-line-list.right-col .col-lg-12:nth-of-type(2n) {
+  margin-top: 5px;
+}
+
+/* line 189, ../scss/partials/_headers.scss */
+.dmg-contact-form {
+  background-color: #acacac;
+}
+
+/* line 194, ../scss/partials/_headers.scss */
+#main-content blockquote, .post-content blockquote {
+  background: #ececec;
+  color: #4f1a57;
+  border-left: 5px #4f1a57 solid;
+}
+
+/* line 201, ../scss/partials/_headers.scss */
+.contact-info .light-blue {
+  color: #fff !important;
+}
+/* line 204, ../scss/partials/_headers.scss */
+.contact-info a {
+  color: #fff !important;
+}
+/* line 206, ../scss/partials/_headers.scss */
+.contact-info a:hover {
+  color: #fff;
+}
+
+/* line 212, ../scss/partials/_headers.scss */
+h2.dmg_menu_icon {
+  text-align: center;
+  line-height: 1.1em;
+  font-size: 20px;
+  padding: 0.5em;
+  border: solid 1px #fff;
+  margin-top: 10px !important;
+  color: #fff;
+}
+/* line 221, ../scss/partials/_headers.scss */
+h2.dmg_menu_icon:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+/* line 227, ../scss/partials/_headers.scss */
+.sticky-header-on .dmg-top-menu {
+  opacity: 0.8;
+}
+/* line 229, ../scss/partials/_headers.scss */
+.sticky-header-on .dmg-top-menu:hover {
+  opacity: 1;
+}
+
+/* line 234, ../scss/partials/_headers.scss */
+.general-margin {
+  margin-left: 5px;
+}
+
+/* line 238, ../scss/partials/_headers.scss */
+h1.dmg_subheading {
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 32px;
+  margin: 20px 0;
+}
+
+@media (min-width: 0em) and (max-width: 43em) {
+  /* line 245, ../scss/partials/_headers.scss */
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 0) and (max-width: 60em) {
+  /* line 251, ../scss/partials/_headers.scss */
+  .hide-on-mobile-tab {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 259, ../scss/partials/_headers.scss */
+  #header img.logo {
+    max-width: 150px;
+    padding: 20px 0 0 0;
+  }
+
+  /* line 264, ../scss/partials/_headers.scss */
+  #upper-header .item.right {
+    display: none;
+  }
+}
+/* line 1, ../scss/partials/_project_meta.scss */
+.dark-gray-bg .project .project-meta {
+  background-color: #282828;
+}
+
+/* line 5, ../scss/partials/_project_meta.scss */
+.dark-gray-bg .project:hover .project-meta {
+  background-color: #333333;
+}
+
+/* line 9, ../scss/partials/_project_meta.scss */
+section.dark-gray-bg {
+  background-color: #282828;
+}
+
+/* line 1, ../scss/partials/_forms.scss */
+.dmg_gf_large_wrap {
+  margin-top: -8em;
+}
+/* line 3, ../scss/partials/_forms.scss */
+.dmg_gf_large_wrap .gform_wrapper {
+  padding: 1em;
+  background: #f7f7f7;
+  border-top: 5px solid #4f1a57;
+}
+/* line 7, ../scss/partials/_forms.scss */
+.dmg_gf_large_wrap .gform_wrapper h2.gsection_title {
+  font-size: 1.4em;
+}
+/* line 10, ../scss/partials/_forms.scss */
+.dmg_gf_large_wrap .gform_wrapper .gsection_description {
+  font-size: 1.05em;
+}
+
+/* line 17, ../scss/partials/_forms.scss */
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], select, textarea {
+  border: none;
+  background-color: #eaeaea;
+  font-family: "Lato";
+  color: #73848e;
+  transition: all ease-in-out .2s;
+}
+/* line 23, ../scss/partials/_forms.scss */
+input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus, input[type="password"]:focus, select:focus, textarea:focus {
+  -webkit-box-shadow: 0px 3px 0px #4f1a57;
+  -moz-box-shadow: 0px 3px 0px #4f1a57;
+  box-shadow: 0px 3px 0px #4f1a57;
+}
+
+/* line 30, ../scss/partials/_forms.scss */
+.gform_wrapper .gfield input[type=email],
+.gform_wrapper .gfield input[type=number],
+.gform_wrapper .gfield input[type=password],
+.gform_wrapper .gfield input[type=tel],
+.gform_wrapper .gfield input[type=text],
+.gform_wrapper .gfield input[type=url] {
+  padding: .5em;
+}
+
+/* line 42, ../scss/partials/_forms.scss */
+.gform_wrapper .ginput_container input[type="text"], .gform_wrapper .ginput_container input[type="tel"], .gform_wrapper .ginput_container input[type="email"], .gform_wrapper .ginput_container input[type="password"], .gform_wrapper .ginput_container select, .gform_wrapper .ginput_container textarea {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+/* line 47, ../scss/partials/_forms.scss */
+.gform_wrapper select {
+  padding: .5em;
+  margin-bottom: 0;
+}
+/* line 52, ../scss/partials/_forms.scss */
+.gform_wrapper input[type="submit"] {
+  padding: 1em;
+  background-color: #39263e;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  border: none;
+  min-width: 25%;
+  text-transform: uppercase;
+}
+
+/* line 65, ../scss/partials/_forms.scss */
+.gform_footer input[type="submit"] {
+  padding: 1em;
+  background-color: #39263e;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  border: none;
+  min-width: 25%;
+  text-transform: uppercase;
+}
+
+/* line 78, ../scss/partials/_forms.scss */
+.dmg_top_margin textarea, .dmg_top_margin input, .dmg_top_margin select {
+  margin-top: 1.2em;
+}
+
+/* line 1, ../scss/partials/_banner.scss */
+.shop-banner .banner-content-wrapper {
+  transition: ease-in-out .2s all;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 12, ../scss/partials/_banner.scss */
+.shop-banner .banner-content-wrapper .banner-content-inner .overlay {
+  display: inline-block;
+  padding: 40px 20px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 80%;
+  max-width: 400px;
+  max-height: 100%;
+  transition: background .4s;
+  -webkit-transition: background .4s;
+  -moz-transition: background .4s;
+}
+/* line 25, ../scss/partials/_banner.scss */
+.shop-banner .banner-content-wrapper .banner-content-inner .overlay h2 {
+  font-size: 22px;
+}
+
+/* line 33, ../scss/partials/_banner.scss */
+.shop-banner:hover img {
+  opacity: 1 !important;
+}
+/* line 36, ../scss/partials/_banner.scss */
+.shop-banner:hover div.banner-content-wrapper {
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  /* line 2, ../scss/partials/_dmg_grid.scss */
+  .vc_responsive .fake_fifth.wpb_row > .vc_col-sm-8 {
+    width: 60%;
+  }
+
+  /* line 5, ../scss/partials/_dmg_grid.scss */
+  .vc_responsive .fake_fifth.wpb_row > .vc_col-sm-4 {
+    width: 40%;
+  }
+}
+/* line 10, ../scss/partials/_dmg_grid.scss */
+.mg-b-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 14, ../scss/partials/_dmg_grid.scss */
+#main-content > .container > .row > section.col-lg-12.small-padding {
+  padding-bottom: 0;
+}
+
+/* line 18, ../scss/partials/_dmg_grid.scss */
+.service-overlap__content {
+  z-index: 10;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+/* line 23, ../scss/partials/_dmg_grid.scss */
+.service-overlap__content.right {
+  background-color: #fff;
+  padding: 50px;
+  margin-top: -225px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 540px) {
+  /* line 39, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__content.left {
+    margin-right: -50px;
+    margin-left: 50px;
+    padding-right: 15px;
+  }
+  /* line 45, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__content.right {
+    max-width: 70%;
+  }
+}
+@media (min-width: 767px) {
+  /* line 54, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__content.right {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 63, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__content.right {
+    margin-left: -50px;
+    margin-top: 150px;
+  }
+  /* line 68, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__content.left {
+    margin-right: -50px;
+    margin-left: 50px;
+  }
+}
+/* line 77, ../scss/partials/_dmg_grid.scss */
+.service-overlap__photo {
+  overflow: hidden;
+}
+/* line 80, ../scss/partials/_dmg_grid.scss */
+.service-overlap__photo.left {
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+/* line 86, ../scss/partials/_dmg_grid.scss */
+.service-overlap__photo.right {
+  margin-left: -50px;
+}
+
+@media (min-width: 540px) {
+  /* line 94, ../scss/partials/_dmg_grid.scss */
+  .service-overlap__photo.left {
+    margin-right: -50px;
+    margin-left: 50px;
+    padding-right: 15px;
+  }
+}
+/* line 103, ../scss/partials/_dmg_grid.scss */
+.max-width-1170 {
+  max-width: 1170px !important;
+}
+
+/* line 107, ../scss/partials/_dmg_grid.scss */
+.dmg-border-left {
+  border-left: 1px solid #d1d1d1;
+}
+
+/* line 111, ../scss/partials/_dmg_grid.scss */
+.product-list {
+  list-style: none;
+  margin-top: 20px;
+}
+/* line 114, ../scss/partials/_dmg_grid.scss */
+.product-list a {
+  font-size: 18px;
+  line-height: 26px;
+}
+/* line 118, ../scss/partials/_dmg_grid.scss */
+.product-list li {
+  margin-bottom: 5px;
+}
+
+/* line 1, ../scss/layouts/_homepage.scss */
+.engine_cover {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 6, ../scss/layouts/_homepage.scss */
+.wpb_single_image.dmg-grid__img img {
+  max-height: 340px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 12, ../scss/layouts/_homepage.scss */
+.dmg-grid__row.vc_row-fluid .vc_col-sm-4 {
+  width: 33.33333333%;
+  float: left;
+}
+
+/* line 17, ../scss/layouts/_homepage.scss */
+.dmg-grid__row.vc_row-fluid .vc_col-sm-8 {
+  width: 66.66666667%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  /* line 24, ../scss/layouts/_homepage.scss */
+  .wpb_wrapper > .vc_custom_1441940568572 {
+    padding-top: 0px !important;
+  }
+
+  /* line 28, ../scss/layouts/_homepage.scss */
+  .dmg-grid__row.vc_row-fluid .vc_col-sm-4,
+  .dmg-grid__row.vc_row-fluid .vc_col-sm-8 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,144 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded (if admin.php is setup in your
+functions file) on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
+/*********************
+DMG COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/* line 17, ../scss/login.scss */
+/* line 45, ../scss/login.scss */
+body.login {
+  background: #4d4d4d;
+}
+
+/* the form box */
+/*
+This is the Wordpress logo in the admin area.
+You'll have to load your own images and mess
+with the width and height.
+*/
+/* line 29, ../scss/login.scss */
+/* line 56, ../scss/login.scss */
+.login h1 a {
+  background: url(../img/DMG-Final-Logo_white.png) no-repeat top center;
+  /* make sure to replace this! */
+  background-size: contain;
+  width: 326px;
+  height: 67px;
+  text-indent: -9999px;
+  overflow: visible;
+  padding-bottom: 15px;
+  display: block;
+}
+
+/* line 38, ../scss/login.scss */
+/* line 69, ../scss/login.scss */
+.login .message {
+  border-left: 4px solid #4f1a57;
+}
+
+/* line 41, ../scss/login.scss */
+/* line 74, ../scss/login.scss */
+form {
+  margin-left: 8px;
+  padding: 26px 24px 46px;
+  font-weight: normal;
+  background: #f7f7f7;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  box-shadow: none;
+}
+/* line 83, ../scss/login.scss */
+form input[type="text"], form input[type="tel"], form input[type="email"], form input[type="password"], form select, form textarea {
+  border: none;
+  background-color: #dedede;
+  padding: .5em;
+  font-family: "Lato";
+  color: #4f1a57;
+  transition: all ease-in-out .2s;
+}
+/* line 90, ../scss/login.scss */
+form input[type="text"]:focus, form input[type="tel"]:focus, form input[type="email"]:focus, form input[type="password"]:focus, form select:focus, form textarea:focus {
+  border: none;
+  -webkit-box-shadow: 0px 3px 0px #4f1a57;
+  -moz-box-shadow: 0px 3px 0px #4f1a57;
+  box-shadow: 0px 3px 0px #4f1a57;
+}
+
+/* line 51, ../scss/login.scss */
+/* line 100, ../scss/login.scss */
+body form .input {
+  font-family: "Lato";
+  font-weight: 200;
+  font-size: 24px;
+  width: 97%;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #E5E5E5;
+  background: #FBFBFB;
+  outline: none;
+  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+}
+
+/* line 115, ../scss/login.scss */
+.wp-core-ui .button-primary {
+  background: #4f1a57;
+  border-color: #39263e;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+You'll have to override some of the default styles
+but since we're referencing the id, it should be easy.
+*/
+/* login button*/
+/*
+retina login logo
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 83, ../scss/login.scss */
+  /* line 134, ../scss/login.scss */
+  .login h1 a {
+    background: url(../img/DMG-Final-Logo_white.png) no-repeat top center;
+    /* make sure to replace this! */
+  }
+}

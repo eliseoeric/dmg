@@ -1,0 +1,311 @@
+/*
+ Theme Name:     Marine Child Theme
+ Theme URI:      http://downingmanagmentgroup.com;
+ Description:    Marine Child Theme for Downing Managment
+ Author:         Think Generic
+ Author URI:     http://www.thinkgeneric.com
+ Template:       Marine
+ Version:        1.0.0
+*/
+ 
+@import url("../Marine/style.css");
+
+
+*/
+.admin-bar #header{
+    margin-top: 32px;
+}
+.gallery-caption {
+}
+
+.bypostauthor {
+}
+
+.alignnone {
+
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Get In Touch */
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.get-in-touch.light {
+    text-align: left;
+}
+
+.get-in-touch input[type="text"], .get-in-touch input[type="password"], .get-in-touch textarea {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+.get-in-touch input[type="text"]:focus, .get-in-touch input[type="password"]:focus, .get-in-touch textarea:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.get-in-touch textarea {
+    height: 100px;
+}
+
+::-webkit-input-placeholder {
+    color: #333;
+}
+
+:-moz-placeholder {
+    color: #333;
+}
+
+::-moz-placeholder {
+    color: #333;
+}
+
+:-ms-input-placeholder {
+    color: #333;
+}
+
+.iconic-input {
+    position: relative;
+}
+
+.iconic-input .icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #008fd5;
+    font-size: 18px;
+}
+h2.big p{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+.comment-form input[type="submit"], .comment-form input[type="reset"] {
+    background: #64737f;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 11px;
+    position: relative;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+.comment-form input[type="submit"]:hover, .comment-form input[type="reset"]:hover {
+    background: #535e67;
+}
+
+.iconic-button {
+    display: inline-block;
+    position: relative;
+}
+
+.iconic-button input[type="submit"], .iconic-button input[type="reset"] {
+    padding-right: 40px;
+}
+
+.iconic-button .icons {
+    position: absolute;
+    top: 11px;
+    right: 15px;
+}
+
+.comment-form input[type="reset"] {
+    background: #23323a;
+}
+
+.comment-form input[type="reset"]:hover {
+    background: #101c23;
+}
+
+.comment-form input[type="submit"] {
+    background: #008fd5;
+}
+
+.comment-form input[type="submit"]:hover {
+    background: #107aae;
+}
+
+.comment-form .iconic-button .icons {
+    color: #fff;
+}
+
+.comment-form input[type="text"], .comment-form input[type="password"], .comment-form textarea {
+    border: 1px solid #EEEEEE !important;
+}
+
+.comment-form input[type="text"], .comment-form input[type="password"], .comment-form textarea {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    transition: background 0.3s ease 0s;
+    width: 100%;
+}
+#reply-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.comment-form .form-submit {
+    display: none;
+}
+
+.widget_wysija_cont input.wysija-submit {
+
+
+    background: #fff url(img/tick.png) center center no-repeat;;
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.07);
+    color: #B1B6B9;
+    float: right;
+    font-size: 0px;
+    height: 29px;
+    margin-right: 6px;
+    margin-top: -40px;
+    position: relative;
+
+    background-color: transparent;
+    border: 0 solid #000;
+    width: 29px;
+}
+.widget_wysija p label{
+    display: none;
+}
+.circular-counter {
+    text-align: center;
+}
+
+.shop-product-details  .price ins .amount{
+    color: #1F95D5;
+}
+
+input.blue[type="submit"] , button.blue {
+    background: none repeat scroll 0 0 #008FD5;
+    border: medium none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    margin: 0 0;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease 0s;
+}
+.minus,.plus{
+    display: none !important;
+}
+
+.woocommerce-tabs{
+    clear: both;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+.shop-product-submit .qty {
+    border: 2px solid #000000;
+    font-weight: 700;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.shop-product-submit input{
+    float: left;}
+.variations label {
+    display: none;
+}
+.first-page{
+    margin-top: -40px;}
+.last-page{
+    margin-bottom: -40px;
+}
+

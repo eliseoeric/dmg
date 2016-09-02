@@ -1,0 +1,33 @@
+.engine_cover {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wpb_single_image.dmg-grid__img img {
+	max-height: 340px;
+    height: auto;
+    max-width: 100%;
+}
+
+.dmg-grid__row.vc_row-fluid .vc_col-sm-4 {
+    width: 33.33333333%;
+    float:left;
+}
+
+.dmg-grid__row.vc_row-fluid .vc_col-sm-8 {
+	width: 66.66666667%;
+	float: left;
+}
+
+@media(max-width: 767px){
+
+	.wpb_wrapper > .vc_custom_1441940568572 {
+		padding-top: 0px !important;
+	}
+
+	.dmg-grid__row.vc_row-fluid .vc_col-sm-4, 
+	.dmg-grid__row.vc_row-fluid .vc_col-sm-8 {
+		padding-left: 10px;
+		padding-right: 10px;
+	} 
+}
