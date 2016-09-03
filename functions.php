@@ -2,6 +2,9 @@
 
 define('MARINE_DIR', plugin_dir_path( __FILE__ ));
 
+require_once dirname( get_bloginfo( 'stylesheet_url' ) ) . '/shortcodes/interactive-gallery.php';
+wp_register_style( 'interactive-slide', dirname( get_bloginfo( 'stylesheet_url' ) ) .'/js/interactive-slide.js', array('jquery'), '1.0', true );
+
 // include_once( MARINE_DIR .'/library/zoho_intergration.php');
 
 // Zoho_Intergrator::get_instance();
